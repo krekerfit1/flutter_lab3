@@ -1,17 +1,45 @@
-# first_flutter_app
+# Лабораторная работа №3. Знакомство с Flutter
 
-A new Flutter project.
+Первое  веб-приложение на  Flutter, демонстрирующее работу  проекта, базовыми виджетами и кастомизацией интерфейса.
 
-## Getting Started
+## Автор
+- **Студент:** Истомин Максим Алексеевич
+- **Группа:** ИСП-243
 
-This project is a starting point for a Flutter application.
+## что использовалось:
+- **Flutter:**
+- **Dart:**
+- **браузер:** adge
+- **IDE:** VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот приложения
+![Интерфейс приложения](img/image.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Как запустить
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Клонировать репозиторий:
+   ```
+   git clone https://github.com/krekerfit1/flutter_lab3.git
+   ```
+2. Перейти в папку проекта::
+   ```
+   cd first_flutter_app
+   ```
+3. Установить зависимости(скачивает и устанавливает все сторонние библиотеки и пакеты прописанные в конфигурационном файле):
+   ```
+   flutter pub get
+   ```
+4. Запустить приложение в браузере :
+   ```
+   flutter run -d 'установленный браузер'
+   ```
+---
+   ## Что изучили:
+
+    - Познакомились со структурой проекта Flutter и базовыми концепциями.
+
+    - Освоили механизмы Hot Reload и Hot Restart, а также работу с инструментами отладки Flutter DevTools, Flutter Inspector Flutter docktor.
+
+    - Изучили работу виджетов: MaterialApp, Scaffold, Container, Center, Text.
+
+    - Настроили стилизацию текста и градиентный фон .
